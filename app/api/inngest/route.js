@@ -1,5 +1,5 @@
 import { serve } from "inngest/next";
-import { inngest } from "@/lib/inngest/client";
+import { inngest } from "@/lib/inngest";
 import { paymentReminders } from "@/lib/inngest/payment-reminders";
 import { spendingInsights } from "@/lib/inngest/spending-insights";
 
